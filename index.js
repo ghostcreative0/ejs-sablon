@@ -79,9 +79,9 @@ client.on("ready", () => {
   passport.use(
     new Strategy(
       {
-        clientID: "831876112384131092",
-        clientSecret: "ks14mBC0RGU__-HWcN7gxkdZsPmEW8bf",
-        callbackURL: "https://wynex.glitch.me/callback",
+        clientID: "UYGULAMA İD",
+        clientSecret: "SECRET",
+        callbackURL: "site domain/callback",
         scope: ["identify"]
       },
       (accessToken, refreshToken, profile, done) => {
