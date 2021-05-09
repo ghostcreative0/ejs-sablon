@@ -11,7 +11,7 @@ const db = new rolly({
 const hastebin = require("hastebin-gen");
 const discord = require("discord.js");
 const client = new discord.Client({ disableEveryone: true });
-client.login("ODM3NjAxOTIzNTA1OTc5Mzk0.YIu7lA.avg-caJWc9JoGUX2Y14lboDQF3Q");
+client.login("Bot Tokeni");
 const fetch = require("node-fetch");
 const fs = require("fs");
 const express = require("express");
